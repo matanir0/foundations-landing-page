@@ -30,7 +30,8 @@ a {
 .header ul {
     list-style-type: none;
     display: flex;
-    gap: 8px;
+    gap: 20px;
+    font-size: 18px;
 }
 
 .hero {
@@ -40,7 +41,6 @@ a {
     padding: 50px 0;
     background-color: #1f2937;
     color: #f9faf8;
-    /* height: ; */
 }
 
 .hero p {
@@ -59,6 +59,7 @@ a {
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    border: none;
 }
 
 .hero-img {
@@ -68,4 +69,39 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin: 35px 0;
+}
+
+.info-item {
+    /* border: 2px dotted red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+.info-item div{
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;   
+}
+
+.info-cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.info-item p {
+    /* border: solid red 1px; */
 }
