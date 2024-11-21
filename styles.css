@@ -41,6 +41,7 @@ a {
     padding: 50px 0;
     background-color: #1f2937;
     color: #f9faf8;
+    flex-basis: 300px;
 }
 
 .hero p {
@@ -49,7 +50,7 @@ a {
 }
 
 .hero-left {
-    flex-basis: 390px;
+    flex-basis: 300px;
 }
 
 .hero-left button {
@@ -76,8 +77,9 @@ a {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
-    margin: 35px 0;
+    gap: 50px;
+    padding: 50px 0;
+    flex-basis: 300px;
 }
 
 .info-item {
@@ -100,8 +102,20 @@ a {
     display: flex;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.info-item p {
-    /* border: solid red 1px; */
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 800px;
 }
