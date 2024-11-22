@@ -119,3 +119,39 @@ a {
     font-weight: 300;
     width: 800px;
 }
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 300px;
+}
+
+.cta-text {
+    padding: 25px 50px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.cta-button button {
+    padding: 5px 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 50px;
+}
