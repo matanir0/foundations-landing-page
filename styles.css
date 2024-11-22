@@ -50,7 +50,7 @@ a {
 }
 
 .hero-left {
-    flex-basis: 300px;
+    flex-basis: 285px;
 }
 
 .hero-left button {
@@ -154,4 +154,13 @@ a {
     font-size: 18px;
     font-weight: 600;
     gap: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 20px 0;
 }
